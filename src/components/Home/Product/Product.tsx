@@ -43,13 +43,17 @@ function Product() {
                 className=" flex flex-col justify-between h-80 p-2 border border-gray-300 rounded-sm w-52"
                 key={product.id}
               >
+                <div className="flex flex-col gap-1">
                 <img className="w-48" src={product.image} alt={product.name} />
                 <h2 className="font-bold">{product.name}</h2>
                 <h3 className="font-medium text-sm">{`$ ${product.price} Millions`}</h3>
-                <p className="text-gray-500 text-xs">{product.desc}</p>
+                </div>
+                <div className="flex flex-col justify-between h-16">
+                <p className="text-gray-500 text-[10px]">{product.desc}</p>
                 <button className="flex justify-center items-center bg-[#3b82f6] w-full py-1 text-white">
                   {product.condition}
                 </button>
+                </div>
               </div>
             );
           })}
