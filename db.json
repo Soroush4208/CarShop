@@ -1,0 +1,36 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"2020 Chevrolet Corvette",
+            "price":100,
+            "desc":"This id a short description of 2020 Chevrolet Corvette .",
+            "image":"./public/img/1.png",
+            "condition":"Buy Now"
+        },
+        {
+            "id":2,
+            "name":"Hyundai",
+            "price":200,
+            "desc":"This id a short description of Hyundai .",
+            "image":"./public/img/2.png",
+            "condition":"Out of Stock"
+        },
+        {
+            "id":3,
+            "name":"Benz",
+            "price":100,
+            "desc":"This id a short description of Benz .",
+            "image":"./public/img/3.png",
+            "condition":"Buy Now"
+        },
+        {
+            "id":4,
+            "name":"Rolls-Royce Phantom",
+            "price":200,
+            "desc":"This id a short description of Rolls-Royce Phantom",
+            "image":"./public/img/4.png",
+            "condition":"Out of Stock"
+        }
+    ]
+}
