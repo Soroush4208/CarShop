@@ -28,7 +28,7 @@
             "id":4,
             "name":"Rolls-Royce Phantom",
             "price":200,
-            "desc":"This id a short description of Rolls-Royce Phantom",
+            "desc":"This id a short description This of Rolls-Royce Phantom .",
             "image":"./public/img/4.png",
             "condition":"Out of Stock"
         }
